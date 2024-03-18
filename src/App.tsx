@@ -3,6 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import oneimg from './assets/1.jpg'
+
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -29,7 +32,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <div>
-        <img src="/src/assets/1.jpg" alt="" />
+        <img src={oneimg} alt="" />
       </div>
     </>
   )
